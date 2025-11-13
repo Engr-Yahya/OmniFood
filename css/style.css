@@ -170,3 +170,31 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/* ****************************** */
+/* HOW IT WORKS SECTION */
+/* ****************************** */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 100rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.grid--2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-how div div {
+  padding: 100px;
+  font-size: 50px;
+}
