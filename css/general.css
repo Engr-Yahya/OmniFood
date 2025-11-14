@@ -40,6 +40,12 @@ body {
 .grid--3cols {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid--4cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
 .grid-center-v {
   align-items: center;
 }
