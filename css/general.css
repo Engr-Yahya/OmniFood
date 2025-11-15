@@ -8,6 +8,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(230, 125, 34, 0.5);
+}
 html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.625 => 62.5% 
@@ -90,11 +94,12 @@ body {
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
-  font-weight: 500;
   padding: 1.6rem 3.6rem;
   border-radius: 13px;
   text-decoration: none;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
 .btn--CTA:link,
 .btn--CTA:visited {

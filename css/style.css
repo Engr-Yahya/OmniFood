@@ -410,7 +410,6 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 40rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   border-radius: 15px;
   overflow: hidden;
@@ -421,7 +420,7 @@
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
 }
 .cta .heading-secondary {
-  color: #45260a;
+  color: inherit;
   margin-bottom: 3.2rem;
   font-size: 3.6rem;
 }
@@ -441,4 +440,42 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  background-color: #fdf2e9;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 9px;
+}
+.cta-form button {
+  align-self: end;
+  background-color: #45260a;
+  color: #fdf2e9;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius: 13px;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+.cta-form button:hover {
+  background-color: #fff;
+  color: #555;
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(253, 242, 233, 0.5);
 }
