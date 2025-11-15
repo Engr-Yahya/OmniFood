@@ -379,7 +379,6 @@
 .feature-grid {
   display: grid;
   gap: 4.5rem;
-  padding: 0 21.5rem;
 }
 .feature-icon {
   color: #cf711f;
@@ -478,4 +477,11 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.5rem rgba(253, 242, 233, 0.5);
+}
+/* ****************************** */
+/* FOOTER */
+/* ****************************** */
+
+.footer {
+  padding: 9.6rem 0;
 }
