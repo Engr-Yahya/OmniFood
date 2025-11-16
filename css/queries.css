@@ -1,0 +1,145 @@
+/* ****************************** */
+/* BELOW 1060px (SMALLER DESKTOPS) */
+/* ****************************** */
+@media (max-width: 67em) {
+  .hero {
+    max-width: 106rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonials-container {
+    padding: 9.6rem 4.8rem;
+  }
+  .delivered-text {
+    font-size: 1.2rem;
+  }
+  .delivered-imgs img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}
+@media (max-width: 58em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 3.8rem;
+    row-gap: 5.8rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+  .header {
+    padding: 3.2rem;
+  }
+  .hero {
+    gap: 6.4rem;
+  }
+  .testimonials-container {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .delivered-text {
+    font-size: 1rem;
+  }
+  .delivered-imgs img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+@media (max-width: 52em) {
+  html {
+    font-size: 50%;
+  }
+  .heading-featured-in {
+    font-size: 1rem;
+  }
+  .logos img {
+    height: 2.6rem;
+  }
+}
+@media (max-width: 47rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+    padding: 0 8rem;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 50%;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .stepnumber {
+    font-size: 6.4rem;
+  }
+  .mealcontent {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta--btn {
+    margin-top: 1.2rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 100vh;
+    width: 100%;
+    transform: translate(100%);
+    transition: all 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0%);
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
